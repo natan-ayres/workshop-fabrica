@@ -1,0 +1,7 @@
+num = int(input("Digite o número:"))
+num2 = int(input("Digite o segundo número:"))
+soma = (num + num2)
+subtracao = (num - num2)
+divisao = (num / num2)
+multiplicacao = (num * num2)
+print("Os números foram {} e {}, a soma deles é {}, a subtração entre eles é {}, a divisão entre eles é {} e a multiplicação entre eles é {}".format (num, num2, soma, subtracao, divisao, multiplicacao))

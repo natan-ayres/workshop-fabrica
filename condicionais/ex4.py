@@ -1,0 +1,6 @@
+preto = int(input("Quantas canetas pretas?:"))
+azul = int(input("Quantas canetas azuis?:"))
+preto2 = (preto * 2.5)
+azul2 = (azul * 2)
+total = (preto2 + azul2)
+print("O Valor a pagar é {}R$".format (total))
